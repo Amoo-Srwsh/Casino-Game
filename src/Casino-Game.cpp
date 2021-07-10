@@ -85,3 +85,11 @@ int main()
  
     return 0;
 }
+
+//function 2
+void drawLine(int n, char symbol)
+{
+    for(int i=0; i<n; i++)
+        cout << symbol;
+    cout << "\n" ;
+}
