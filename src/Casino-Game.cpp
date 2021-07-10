@@ -93,3 +93,17 @@ void drawLine(int n, char symbol)
         cout << symbol;
     cout << "\n" ;
 }
+
+//functio 3
+void rules()
+{
+    system("cls");
+    cout << "\n\n";
+    drawLine(80,'-');
+    cout << "\t\tRULES OF THE GAME\n";
+    drawLine(80,'-');
+    cout << "\t1. Choose any number between 1 to 10\n";
+    cout << "\t2. If you win you will get 10 times of money you bet\n";
+    cout << "\t3. If you bet on wrong number you will lose your betting amount\n\n";
+    drawLine(80,'-');
+}
